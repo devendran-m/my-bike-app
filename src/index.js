@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import Bike from './Bike';
 import MyList from './MyList';
+import Numbers from './Numbers';
 import reportWebVitals from './reportWebVitals';
 
 const items = [
@@ -17,6 +18,7 @@ root.render(
   <React.StrictMode>
     <Bike/>
     <MyList items={items}/>
+    <Numbers number={12}/>
   </React.StrictMode>
 );
 
